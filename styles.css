@@ -39,9 +39,14 @@ nav ul li a:hover {
   transform: scale(1.05);
 }
 
+h1 {
+  font-size: 55px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
 h2 {
   font-size: 24px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 ol {
@@ -50,7 +55,7 @@ ol {
 }
 
 li {
-  margin: 20px 0;
+  margin: 8px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,16 +63,16 @@ li {
 
 img {
   display: block;
-  margin: 20px auto;
+  margin: 80px auto;
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 p {
   max-width: 800px;
   margin: 10px auto;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
